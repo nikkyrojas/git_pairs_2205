@@ -10,8 +10,12 @@ class BankAccount
   end
 
   def deposit(amount)
+<<<<<<< HEAD
     @balance += 100
 
+=======
+    @balance += amount
+>>>>>>> 78f16855c732ee2ab61ee5cb3e17464b43b27117
   end
 
   def withdraw(amount)
